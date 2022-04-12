@@ -1,0 +1,745 @@
+body {font-family: 'Open Sans', sans-serif;
+	padding:0;
+	margin:0px;}
+
+.container {margin:0 auto; max-width:800px; padding:0px 20px;}
+.containerSmall {margin:0 auto; max-width:600px; padding:0px 20px;}
+
+.clearFix {clear: both;}
+#topBar {background: #305584; text-align: center;
+	color:#d7edff; font-weight: bold; padding:1px 0 3px;}
+	
+#topBar .pacifico {
+	font-family: 'Pacifico', cursive;
+	font-weight: normal;
+}
+
+#sumoMe {
+	width: 150px;
+	right: 0;
+	position: absolute;
+	top: 0;
+	background: #1957B6;
+	font-weight: normal;
+	padding: 7px 0;
+	color: white;
+	font-size: 12px;
+	height: 18px;
+}
+
+#header {height:310px; background:url(img/SOMhead.png); background-size:cover; background-repeat: no-repeat;
+}
+
+#header h1 {text-align: center; font-size: 36px;
+	color:#4078a7; font-weight: bold;
+	padding:55px 0; margin:0 auto; max-width: 500px;
+}
+
+#freeSpan {color:#61a4dc;}
+
+.emailBox {
+width: 100%;
+background: #f5ce56;
+height: 90px;
+padding: 0px 0 0;
+}
+
+.emailBox .container {
+max-width: 770px;
+}
+
+#emailBox2 {margin-top:50px;}
+
+
+input.email {
+background: #F8F4E8;
+border: none;
+width: 100%;
+max-width: 550px;
+float: left;
+font-size: 35px;
+text-align: left;
+color: #53BE4D;
+padding: 10px 0px 10px 20px;
+outline: none;
+margin: 13px 0 0;
+border-radius: 10px 0px 0px 10px;
+}
+
+input.email::selection {
+	background:#d5ca9a;
+}
+input.email::-moz-selection {
+background:#d5ca9a;
+}
+
+input.email:hover {
+box-shadow: 0px 0px 15px 0px white;
+}
+
+input.submit:hover {
+box-shadow: 0px 0px 15px 0px white;
+color:white;
+
+}
+
+
+input.submit {
+background: #53be4d;
+border: none;
+color: #CEF1CD;
+font-weight: bold;
+font-size: 35px;
+width: 200px;
+float: left;
+cursor: pointer;
+margin: 13px 0 0 0px;
+padding: 10px;
+border-radius: 0px 10px 10px 0px;
+-webkit-appearance: none;
+}
+
+/*
+input.email {
+	background: #f5ce56;
+	border: none;
+	width: 100%;
+	max-width: 500px;
+	float: left;
+	font-size: 35px;
+	text-align: right;
+	color: white;
+	padding: 10px;
+	outline:none;
+}
+*/
+/*
+input.submit {background: none; border: none;
+		color:#53be4d; font-weight: bold;
+		font-size: 45px; width:200px;
+		float: left;
+		cursor:pointer;}
+*/
+
+
+input::-webkit-input-placeholder { color:#9BD375; }
+input::-moz-placeholder { color:#9BD375; } /* firefox 19+ */
+input:-ms-input-placeholder { color:#9BD375; } /* ie */
+input:-moz-placeholder { color:#9BD375; }
+
+#quotes, #courseView, #courseListDesc, #courseList {width:100%; float:left;}
+
+#courseList, #courseListDesc {background: #fffcf1;}
+
+#countdownBG {
+	background: #e8e8e8;
+	font-size: 90%;
+	padding: 10px 0 0;
+	color: #3D59A2;
+	font-weight: bold;
+}
+
+#countdownBG .container {
+	text-align: center;
+}
+
+#countdownBG .course-open {
+	display: inline-block;
+	vertical-align: middle;
+	border-right: 1px solid;
+	text-align: left;
+	padding-right: 2%;
+	color: #3D59A2;
+}
+
+.course-open p {
+	margin: 0;
+	padding: 0.5em 0;
+	max-width: 65px;
+}
+
+.is-countdown {background-color: none;}
+
+.countdownBox {
+	margin: 0 auto;
+	width: 290px;
+	border:none !important;
+	font-family: 'Open Sans', sans-serif;
+	background: none !important;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0.5em 0;
+}
+
+#countdownLabel {
+	text-align: center;
+	width: 100%;
+	float: left;
+	font-weight: bold;
+	background: #e8e8e8;
+	padding: 5px 0;
+	color: #6890C3;
+	font-size: 23px;
+}
+
+.countdownBox .countdown-section {
+	width: 70px;}
+
+#description {
+text-align: left;
+font-size: 20px;
+padding: 60px 0 80px;
+background: white;
+}
+
+#descText {
+margin: 30px;
+padding-top: 25px;
+font-size: 18px;
+padding-left: 180px;
+color:#5B6574;
+}
+
+#description img { float: left;
+margin: 0 20px 0 20px;
+width:160px;
+}
+
+#noahBox {
+background: #6BDB51;
+color: white;
+float: left;
+padding: 40px 0px 0 !important;
+width: 100%;
+}
+
+#noahBox .textBox {float: left; width:60%; margin-bottom: 30px;}
+#noahBox h2 {font-size:32px; margin-top:0px;}
+
+#MrKagan {
+float: right;
+width: 35%;
+margin-top: 73px;
+}
+
+#quotes {padding: 50px 0 55px; background: #fffcf1;}
+#quotes h3 {color:#f0cc51;}
+.quote {
+text-align: left;
+max-width: 360px;
+margin: 0 auto;
+padding-left: 120px;
+}
+img.quoteImg {
+width: 80px;
+float: left;
+margin-left: 11%;
+}
+
+#QuotesLabel {
+text-align: center;
+padding: 20px 0 20px;
+font-weight: bold;
+color: #5990E6;
+font-size: 32px;
+}
+
+#quotes h3 {
+color: #f0cc51;
+margin: 5px 0 30px;
+}
+
+#courseView {height:450px; background:url(img/SOMcurve.png);
+	background-size:cover; background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center; font-size: 36px;
+	margin-bottom: 65px;
+}
+
+#SOMcourse {width:330px;margin-top:110px;
+	box-shadow: 0px 0px 14px rgba(0,0,0,0.36);
+}
+
+#courseListDesc {padding:30px 0 40px; text-align: center;}
+#courseListDesc .container {max-width: 550px;}
+#courseList .container {max-width: 550px; margin:0 auto; padding:0px 50px 0 80px;}
+#courseList {padding: 0 0 30px;}
+#courseListDesc h3 {color:#5990E6; font-size: 32px;}
+
+#courseList h4 {color:#6bd951; margin:20px 30px 5px;}
+
+#courseList strong {
+width: 20px;
+text-align: right;
+color: #96bedf;
+margin: 0 10px;
+}
+
+.courseTitle {
+width: 100%;
+margin-left: 30px;
+margin-bottom: 10px;
+}
+
+.weekLabel {
+width: 60px;
+float: left;
+text-align: right;
+margin-left: -42px;
+color: #E9E9E9;
+margin-right: 10px;
+}
+
+.weekLabel00 {
+width: 60px;
+float: left;
+text-align: right;
+margin-left: -50px;
+color: #E9E9E9;
+margin-right: 10px;
+}
+
+#testimonials {margin-top:40px;float: left; width:100%;}
+#testimonials h3 {text-align: center; color:#4078a7;}
+.testimonial {width:30%;float:left;padding:1.5%; 
+	font-size: 14px; color:#646464;}
+	
+#footer { float: left; width: 100%;
+	text-align: center; padding: 50px 0; color: #a2a2a2;}
+
+#footer a {color:#69d950;}
+
+.OkDorkLogo {
+width: 100px;
+margin: 0 0 20px;
+}
+
+#footerTitle {
+font-size: 30px;
+font-weight: bold;
+color:#61a4dc;
+}
+
+#footerTitleBox {
+text-align: center;
+float: left;
+width: 100%;
+padding: 0px 0 40px;
+}
+
+#footerTitle .pacifico {
+	font-family: 'Pacifico', cursive;
+	font-weight: normal;
+}
+
+div#footerSumoMe,  #footerSumoMe a {
+font-family: 'Open Sans', sans-serif;
+color: #ABC6FF;
+}
+
+/* 
+---------------------------  INTERIOR  ---------------------------
+*/
+
+#vipLeftBox {
+max-width: ;
+}
+#vipRightBox {
+width: 50%;
+float: right;
+padding-top:25px;
+}
+
+#vipRightBox h3 {
+margin: 5px 0 20px;
+}
+
+#vipRightBox .quote {
+padding: 0 5% 0 0;
+font-size: 80%;
+float: left;
+width: 45%;
+color: #918C8C;
+}
+
+#vipRightBox .quoteImg {
+margin: 0 10px 10px 0;
+width: 40px;
+}
+
+body.vipBody {background: #fbeab3;}
+
+#vipPageContent {width:100%; float:left; padding-bottom: 10px;}
+
+#vipPage .container {
+max-width: 960px;
+}
+
+#vipLeftBox {width: 45%; float:left;}
+
+#vipPage {
+padding: 10px 0;
+background: #fffcf1;
+float: left;
+width:100%;
+}
+
+.vipIndItem {
+padding: 20px 25px;
+font-size: 14px;
+font-weight: normal;
+line-height: 18px;
+border-bottom: 2px solid #ECF6FC;
+margin: 0 20px;
+}
+
+.firstIndItem {font-weight: bold;}
+
+.lastItem {border-bottom: none !important;}
+
+#nextPageButton {
+color: #9FC097;
+font-weight: bold;
+text-decoration: none;
+font-size: 20px;
+width: 100%;
+float: right;
+text-align: right;
+margin-top: 70px;
+}
+
+.tweetPerson {
+width: 30px;
+text-decoration: none;
+float: left;
+margin: 0 10px;
+opacity: .5;
+}
+#tweet {
+padding: 20px;
+background: #f1f5fa;
+font-size: 18px;
+border-radius: 10px;
+box-shadow: 2px 2px 13px #A1B3C4;
+border: 1px solid white;
+margin: 15px 0;
+}
+
+#tweet p {float: left;}
+
+#tweet a {
+font-weight: bold;
+text-decoration: none;
+color: #2FC5FF;
+line-height: 46px;
+font-size: 30px;
+}
+
+div#joined {
+font-size: 10px;
+font-weight: bold;
+color: #D4C8B8;
+}
+#joined a {
+color: #D4C8B8;
+text-decoration: none;
+}
+
+.joiner {
+float: left;
+margin: 7px 15px 7px 0;
+}
+
+#comImg {
+max-width: 260px;
+margin:0;
+width:100%;
+}
+
+
+
+#vipCourseView {
+	height: 170px;
+	background: url(img/intBG.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	font-size: 36px;
+	float: left;
+	width: 100%;
+}
+#vipBox {
+width: 100%;
+float: right;
+background: #f1f5fa;
+text-align: center;
+}
+
+#vipBox h2 {
+background: #e8c654;
+color: white;
+padding: 10px;
+margin: 0;
+}
+
+#vipPrice {
+font-size: 70px;
+color: #3475aa;
+line-height: 70px;
+padding: 15px 0 0;
+}
+
+#vipPriceCents {
+font-size: 12px;
+font-weight: bold;
+margin: 0 0 5px;
+color: #437FB6;
+}
+
+#vipPriceDesc {
+color: #6bd951;
+font-weight: bold;
+font-size: 22px;
+line-height: 23px;
+margin-top:10px;
+}
+
+#vipItems {
+background: #d7e2f0;
+margin: 20px 0 0;
+padding: 10px 20px;
+font-size: 16px;
+color: #3475aa;
+line-height: 24px;
+}
+
+#vipButton {
+background: #6bd951;
+width: 100%;
+float: left;
+padding: 15px 0;
+color: #FDFFCF;
+font-weight: bold;
+text-decoration: none;
+font-size: 30px;
+box-shadow: 0px 0px 12px rgba(108, 112, 158, 0.64);
+border-top: 3px solid #9EFC79;
+background: -webkit-linear-gradient(#5cd530 0%, #3fb14f 100%);
+text-shadow: 2px 2px 0px rgb(53, 148, 77);
+letter-spacing: 2px;
+}
+
+#vipButton:hover {
+background: -webkit-linear-gradient(#3fb14f 0%, #5cd530 100%);
+color: #A3FF2D;
+box-shadow: 0px 0px 30px rgb(232, 245, 82);
+}
+
+#vipPageContent h3 {
+margin: 0;
+font-size: 25px;
+font-weight: normal;
+}
+
+div#vipPageContent h2 {
+margin: 0;
+font-size:38px;
+}
+
+div#vipPageContent h2, #vipPageContent h3 {
+color: #4391D1;
+}
+
+#vipPageContent p {
+font-size: 14px;
+max-width: 440px;
+}
+
+#thanksPage {
+width: 100%;
+float: left;
+background: #fffcf1;
+padding: 100px 0;
+text-align: center;
+font-weight: bold;
+font-size: 30px;}
+
+#thanksText {
+max-width: 350px;
+margin: 0 auto 20px;
+color: #50afcf;}
+
+#thanksPage a {
+font-size: 19px;
+color: #6bd951;
+line-height: 32px;
+float: left;
+width: 100%;
+}
+div#vipBottomLogos {
+width: 100%;
+float: left;
+margin:0px 0 20px;
+}
+
+#vipRightBox h2 {
+margin: 0px 0 10px;
+font-size: 20px;
+color: #e8c654;
+float: left;
+width: 100%;
+}
+
+.logo {
+height: 45px;
+margin:0 2%;
+}
+
+.vipBody #countdownLabel {
+background: rgb(248, 240, 207);
+color:#6CC358;
+}
+
+.vipBody #countdownBG {
+font-size: 100%;
+height: 60px;
+background: rgb(230, 217, 177);
+color:#6CC358;
+}
+
+.vipBody .countdownBox {
+height: 60px;
+}
+
+/* 
+---------------------------  TWEET  ---------------------------
+*/
+
+#tweetPage h3 {
+margin: 0;
+font-size: 25px;
+font-weight: normal;
+}
+
+#tweetPage h2 {
+margin: -10px 0 10px;
+font-size:38px;
+}
+
+#tweetPage h2, #tweetPage h3 {
+color: #4391D1;
+}
+
+#tweetPage{
+background: #fffcf1;
+float: left;
+width: 100%;
+padding:50px 0;
+}
+
+#tweetPage .container {
+margin: 0 auto;
+max-width: 540px;
+padding: 0px 20px;
+}
+
+#checklist2 {width:160px;}
+
+
+/* 
+---------------------------  RESPONSIVE  ---------------------------
+*/
+
+@media only screen 
+and (max-width : 850px) {
+input.email {width:300px; font-size:20px;}
+input.submit {font-size:20px;padding: 10px;
+		width: 109px;}
+.emailBox {height: 70px;padding:5px 0;}
+.emailBox .container {width:430px;}
+#noahBox .textBox {font-size: 80%;margin-bottom: 0;}
+
+}
+
+
+@media only screen 
+and (max-width : 350px) {
+#header h1 {padding:45px 0 !important;}
+#tweet p {font-size: 80%;}
+#thanksPage {padding:30px 10%; width:80%;}
+.mobileClearFix {clear:both;}
+}
+
+@media only screen 
+and (max-width : 750px) {	#MrKagan {display: none;} 	#noahBox .textBox {width: 100%;} 
+#vipLeftBox {
+width: 100%;
+max-width: none;
+margin-bottom: 30px;}
+
+#vipRightBox {
+float: none;
+margin: 0 auto;
+width: 100%;
+max-width: none !important;
+}
+
+#nextPageButton {
+font-size: 24px;
+float: left;
+margin: 30px 0;
+text-align: center;
+width: 100%;
+}
+
+#vipRightBox {
+float: none;
+margin: 0 auto;
+width: auto;
+max-width: 320px;
+}
+
+}
+
+@media only screen 
+and (max-width : 550px) {
+#header h1 {font-size: 26px; padding:100px 0;}
+
+.emailBox .container { width:100% ;padding:0;}	
+input.submit { width:100%; ;border-radius:0px 0px 0px 0px; margin-bottom: 5px;}
+input.email { width: 100%;padding: 10px 0;text-align: center; 
+			max-width: none; border-radius: 0px 0px 0px 0px;}
+#countdownBG { width:100%;float: left;}
+#description { font-size:14px; padding:40px 0 80px;float: left; width:100%;}
+#descText {
+	margin: 0;
+	padding-top: 25px;
+	font-size: 18px;
+	padding-left: 0;
+	color: #5B6574;
+	width: 100%;
+	float: left;
+	text-align: center;}
+#description img {float:none; margin:0 auto; display:block;}
+#noahBox h2 { font-size: 23px;}
+#quotes { padding: 50px 0 20px;}
+#courseView {height: 215px;}
+#SOMcourse { width: 220px;margin-top: 10px;}
+#courseList {font-size: 14px;}
+#sumoMe {float: left; width:100%; text-align: center; 
+	position: relative;}
+.quoteImg {margin-left:3% !important;}
+}
+
+
+@media only screen 
+and (max-width : 650px) {
+
+
+text-align: center;}
+#noahBox {padding:20px 0;}
+.testimonial {width:100%;margin:5px 0;}
+
+
+}
